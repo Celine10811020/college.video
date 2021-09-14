@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 
-  <title>層層遞進</title>
+  <title>大學課程影片</title>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.9/p5.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.9/addons/p5.dom.min.js"></script>
@@ -19,52 +19,36 @@
 <body>
   <div id="firstLayer">
     <details id="大三上">
-      <summary>
-        <font size="6"> 大三上 </font>
-        </summary>
-          <div id="secondLayer">
-            <details id="生物力學">
-              <summary>
-                <font size="5"> 生物力學 </font>
-                </summary>
-                <div id="thirdLayer">
-                  <font size="4"> 2021.09.13 </font>
-                  <video width="320" height="240" preload="none" controls>
-                    <source src="https://www.youtube.com/embed/NIyS_U37izA">
-                    Your brower does not support the video tag.
-                  </video>
-                </div>
-                <div id="thirdLayer">
-                  <font size="4"> B </font>
-                </div>
-              </details>
-          </div>
-          <div id="secondLayer">
-            <details id="二">
-              <summary>
-                <font size="5"> 二 </font>
-                </summary>
-                <div id="thirdLayer">
-                  <font size="4"> A </font>
-                </div>
-                <div id="thirdLayer">
-                  <font size="4"> B </font>
-                </div>
-              </details>
-          </div>
-          <div id="secondLayer">
-            <details id="三">
-              <summary>
-                <font size="5"> 三 </font>
-                </summary>
-                <div id="thirdLayer">
-                  <font size="4"> A </font>
-                </div>
-                <div id="thirdLayer">
-                  <font size="4"> B </font>
-                </div>
-              </details>
-          </div>
+      <summary> 大三上 </summary>
+        <div id="secondLayer">
+          <details id="生物力學">
+            <summary> 生物力學 </summary>
+              <div id="thirdLayer">
+                <a href="https://www.youtube.com/watch?v=NIyS_U37izA&t=22s" target="_blank"> 2021.09.13 </a>
+              </div>
+            </details>
+        </div>
+        <div id="secondLayer">
+          <details id="電子學">
+            <summary> 電子學 </summary>
+              <div id="thirdLayer">
+                <details id="2021.09.14">
+                  <summary> 2021.09.14 </summary>
+                    <div id="fourthLayer">
+                      <iframe src="https://drive.google.com/file/d/1QHBURJeNicf1h6DQ1wcXAGnoDsBQ_CFM/preview" width="800" height="480" allow="autoplay"></iframe>
+                    </div>
+                  </details>
+              </div>
+            </details>
+        </div>
+        <div id="secondLayer">
+          <details id="電子學實驗">
+            <summary> 電子學實驗 </summary>
+              <div id="thirdLayer">
+                
+              </div>
+            </details>
+        </div>
       </details>
   </div>
 </body>
@@ -83,10 +67,6 @@
             <font size="4">  </font>
             </summary>
             <div id="fourthLayer">
-              <audio id="player" controls loop preload="metadata" controlsList="nodownload" oncontextmenu="return false">
-                <source src="" type="audio/mpeg">
-                你的瀏覽器不支援 audio tag！
-              </audio>
             </div>
           </details>
       </div>
